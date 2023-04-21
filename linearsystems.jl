@@ -19,7 +19,7 @@ end
 begin
 	using LinearAlgebra
 	using RowEchelon
-	using Plots;gr()
+	using Plots;plotly()
 	using PlutoUI
 	using PlutoExtras
 	using PlutoTeachingTools
@@ -27,9 +27,6 @@ end
 
 # ╔═╡ 728d3b9a-8210-40df-9ac2-dcdff818e6b6
 using PlutoUI:combine
-
-# ╔═╡ 9ccb4096-c096-444b-a494-95a4fd373001
-gr(); # backend for plotting
 
 # ╔═╡ 3f25c720-213f-42ad-b514-24a75412c4b6
 TableOfContents()
@@ -1289,7 +1286,6 @@ version = "1.4.1+0"
 
 # ╔═╡ Cell order:
 # ╟─c480b6a4-df18-11ed-0868-5f035cd022d7
-# ╟─9ccb4096-c096-444b-a494-95a4fd373001
 # ╟─3f25c720-213f-42ad-b514-24a75412c4b6
 # ╟─3f0f82c1-2646-4bf7-9800-d267a8d1b6d2
 # ╟─9d8fbe56-d671-4d2c-94f2-f23d6214b779
