@@ -19,7 +19,7 @@ end
 begin
 	using LinearAlgebra
 	using RowEchelon
-	using Plots;plotly()
+	using Plots;gr()
 	using PlutoUI
 	using PlutoExtras
 	using PlutoTeachingTools
@@ -217,7 +217,7 @@ $(latexify_md(rref([M Bₘ])))
 question_box(md"""
 What is the rank of the coefficient matrix for the current choice of parameters?
 
-Replace `missing` with your answer in the code box below. 
+Replace `missing` with your answer in the code box below and then press Shift+Enter. 
 """)
 
 # ╔═╡ 68abc684-372b-4756-9d15-a9e248f83411
